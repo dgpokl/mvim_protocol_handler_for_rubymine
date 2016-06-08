@@ -9,6 +9,10 @@ The difference seems to be that mvim expects a "url" parameter and that looks li
 1. Rubymine, version unknown (5.4+??) but the x-mine: URLs work fine in version 8. See https://youtrack.jetbrains.com/issue/RUBY-484
 2. You probably shouldn't have MacVim installed. I don't know how to resolve the conflict if you have 2 apps trying to implement the same scheme. Probably one will work and one won't.
 
+## Background
+
+Honeybadger can be configured to render links with a custom protocol in order to launch an editor. If you use Honeybadger, you can set this up here: https://app.honeybadger.io/users/edit - Use the "MacVim" option :)
+
 ## How to use
 
 #### Option 1: Build it yourself:
