@@ -21,6 +21,7 @@ Honeybadger can be configured to render links with a custom protocol in order to
 2. Use the contents of the main.scpt file here
 3. Save it in /Applications or ~/Applications
 4. Add in this section to your application's info.plist:
+
     <key>CFBundleURLTypes</key>
     <array>
     	<dict>
