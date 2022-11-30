@@ -21,7 +21,7 @@ Honeybadger can be configured to render links with a custom protocol in order to
 2. Use the contents of the main.scpt file here
 3. Save it in /Applications or ~/Applications
 4. Add in this section to your application's info.plist:
-
+````
     <key>CFBundleURLTypes</key>
     <array>
     	<dict>
@@ -33,10 +33,12 @@ Honeybadger can be configured to render links with a custom protocol in order to
     		</array>
     	</dict>
     </array>
-
+````
 5. Open your app once and accept any warning. It will just exit without doing anything after you do this.
 6. Test it by clicking a link in your browser, or, by doing something like this on the terminal:
+````
     open 'mvim://open/?url=file:///path/to/file/file.rb&line=3'
+````
 
 #### Option 2: Pre-built app
 
